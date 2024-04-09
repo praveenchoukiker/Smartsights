@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    font-family: "Roboto", sans-serif;
+
+}
+.navbar{
+    display: flex;
+    padding: 30px;
+    margin-bottom: auto;
+}
+.header{
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    font-size: 20px;
+    /* font-weight:100px; */
+        
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    /* padding: 70px; */
+    gap: 20px;
+    padding-left: 600px
+    
+}
+.menu-icon{
+    display: none;
+}
+#img-1{
+    height: 60px;
+    padding-left: 80px;
+}
+.nav-links h1{
+    font-size: 50px;
+}
+.menu-icon{
+    display: none   ;
+}
+.container{
+    background: linear-gradient(90deg, rgba(85,29,80,1) 0%, rgba(99,33,93,0.9052871148459384) 3%, rgba(113,37,107,0.7400210084033614) 100%),url(./aspect/home-hero-team.jpg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+    /* padding-top:30px; */
+    text-align: center;
+    padding: 40px;
+    color: aliceblue;
+}
+.container h1{
+    padding: 20px;
+    font-size: 40px;
+
+}
+.container p{
+    padding: 10px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-size: 20px;
+}
+#plan{
+    font-size: 15px;
+}
+#img-content{
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.logo{
+    background-color: #4A234B;
+    height: 120px;
+
+}
+#image{
+    /* z-index: 1; */
+    color: aliceblue;
+    width:90%;
+    padding-left: 130px;
+    /* background-color: #4A234B; */
+    height: auto;
+}
+.achieve{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.para{
+    padding-inline: 315px;
+}
+.marketing{
+    display: flex;
+    padding-left:150px;
+    gap: 20px;
+    padding-bottom: 50px;
+    /* border-right: 1px solid black; */
+}
+.marketing div{
+    border-right: 1px solid gray;
+}
+#team{
+    border-right: none;
+}
+
+#img{
+    height: 200px;
+    width: auto;
+}
+#btn{
+    width: 180px;
+    color: black;
+    height: 40px;
+    background-color: #0083CA;
+    color: aliceblue;
+}
+
+span p{
+    padding: 20px;
+}
+.framework{
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    background-color: #4A234B;
+    color: white;
+    gap: 10px;
+
+    
+}
+/* .para{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+.framework h1{
+    font-size: 30px;
+}
+.details{
+    display: flex;
+    padding: 40px;
+    gap: 120px;
+    /* padding-left: 200px; */
+    border-right: white;
+    z-index: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.details div{
+    border-right: 1px solid white;
+    padding-right: 40px;
+}
+#exp{
+    border-right: none;
+}
+.details h2{
+    font-size: 40px;
+    font-weight: 300;
+}
+.expert{
+    text-align: center;
+    padding: 50px;
+}
+
+.expert-img{
+    display: flex;
+    /* padding-left:150px; */
+    padding: 20px;
+}
+.expert-img div{
+    border-right: 1px solid gray;
+}
+#sm{
+    border-right: none;
+}
+.expert-img p{
+    padding: 40px;
+    padding-left: 90px;
+}
+.expert-img h1{
+    padding-left: 50px;
+}
+#expert {
+    font-size: 40px;
+}
+#high{
+    color: #0083CA;
+}
+.card{
+    border: 1px solid black;
+    width: 550px;
+    height: 250px;
+    padding: 40px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#card-1{
+    padding: 10px;
+
+}
+#card-1 h1{
+    font-size: 23px;
+}
+#card-1 p{
+    padding: 10px;
+}
+#btn-2{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color: #78B948;
+    border-radius: 5px;
+    border: none;
+
+}
+.card-2{
+    padding: 120px;
+    background-image: url(./aspect/home-lower-image.jpg);
+    height: 400px;
+}
+#img-1{
+    background-image: cover;
+}
+.vendor{
+    padding: 50px;
+    text-align: center;
+    padding-left: 120px;
+    display: flex;
+    gap: 40px;
+}
+
+ .box{
+    border: 1px solid black;
+    width: 400px;
+    height: 550px;
+
+
+ }
+#img-3{
+    padding: 40px;
+}
+#degianation{
+}
+#content-1{
+    padding: 20px;
+    padding-bottom: 75px;
+}
+.footer{
+    display: flex;
+    /* padding-left:40px; */
+    align-items: center;
+    justify-content:center ;
+    background-color: #362F34;
+    color: whitesmoke;
+}
+.list{
+    list-style: none;
+    padding: 40px;
+    /* gap: 20px; */
+}
+#comp{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.footer-2{
+    text-align: center;
+    background-color:#252124;
+    color: aliceblue;
+    height: 150px;
+    padding: 20px;
+}
+#follow{
+list-style: none;
+padding: 10px;
+}
+.logo-2{
+    list-style: none;
+    gap: 20px
+    ;
+}
+.logo-2 i{
+    height: 40px;
+    width: 40px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .menu-icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-left: 500px;
+  }
+  .nav-links{
+    display: none;
+
+  }
+  .para{
+    width: 100%;
+    padding-inline: 0px;
+  }
+  .container p{
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 20px;
+}
+
+  .marketing{
+    display: flex;
+    flex-direction: column;
+    padding-left:0;
+    
+}
+.marketing div{
+    border-right: none;
+}
+.details{
+    padding-left: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.expert-img{
+    display: flex;
+    flex-direction: column;
+    padding-left:0;
+    
+
+}
+.details div{
+    border-right: none;
+}
+#expert{
+    font-size: 30px;
+}
+.expert-img span{
+    width: auto;
+    padding-left: 0px;
+}
+.expert-img div{
+    border-right: none;
+}
+#img-1{
+    padding-left: 0px;
+}
+.card-2{
+    padding: 60px;
+}
+.vendor{
+    display: flex;
+    flex-direction: column;
+    /* padding-left:0; */
+    width: 100%;
+}
+.box{
+    width: 60vh;
+    min-height: 80vh;
+    padding: 0px;
+    position: relative;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    text-align: center;
+}
+}
